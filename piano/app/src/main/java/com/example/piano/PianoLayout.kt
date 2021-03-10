@@ -44,7 +44,7 @@ class PianoLayout : Fragment() {
 
         ft.commit()
 
-        // Inflate the layout for this fragment
+        // Inflate the layout for this fragments
         return view
     }
 }
