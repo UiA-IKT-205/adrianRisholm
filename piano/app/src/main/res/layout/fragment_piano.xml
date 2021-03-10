@@ -13,21 +13,28 @@
         android:orientation="horizontal"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintBottom_toTopOf="parent"
-        >
 
-        <EditText
-            android:id="@+id/fileNameTextEdit"
-            android:layout_width="0dp"
-            android:layout_height="wrap_content"
-            android:layout_weight="1"
-            android:text="File name for tune" />
+        />
+    <!--app:layout_constraintBottom_toTopOf="@+id/fileNameTextEdit"-->
 
-        <Button
-            android:id="@+id/saveScoreBt"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="Lagre" />
-    </LinearLayout>
+    <!--<EditText
+        android:id="@+id/fileNameTextEdit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="10dp"
+        android:ems="20"
+        android:text="File name for tune"
+        android:importantForAutofill="no"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        />
+
+    <Button
+        android:id="@+id/saveScoreBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        android:text="Lagre" />-->
 
 </androidx.constraintlayout.widget.ConstraintLayout>

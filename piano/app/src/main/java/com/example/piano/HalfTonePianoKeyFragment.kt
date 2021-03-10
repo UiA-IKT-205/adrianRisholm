@@ -6,13 +6,13 @@ import android.view.LayoutInflater
 import android.view.MotionEvent
 import android.view.View
 import android.view.ViewGroup
-import com.example.piano.databinding.FragmentFullTonePianoKeyBinding
-import kotlinx.android.synthetic.main.fragment_full_tone_piano_key.view.*
+import com.example.piano.databinding.FragmentHalfTonePianoKeyBinding
+import kotlinx.android.synthetic.main.fragment_half_tone_piano_key.view.*
 
 
 class HalfTonePianoKeyFragment : Fragment() {
 
-    private var _binding:FragmentFullTonePianoKeyBinding? = null
+    private var _binding:FragmentHalfTonePianoKeyBinding? = null
     private val binding get() = _binding!!
     private lateinit var note:String
 
@@ -29,7 +29,7 @@ class HalfTonePianoKeyFragment : Fragment() {
 
     override fun onCreateView(inflater: LayoutInflater, container: ViewGroup?, savedInstanceState: Bundle?): View? {
 
-        _binding = FragmentFullTonePianoKeyBinding.inflate(inflater)
+        _binding = FragmentHalfTonePianoKeyBinding.inflate(inflater)
         val view = binding.root
 
 
@@ -43,7 +43,7 @@ class HalfTonePianoKeyFragment : Fragment() {
                 return true
             }
         })
-        // Inflate the layout for this fragment
+
         return view
     }
 
