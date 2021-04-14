@@ -15,9 +15,9 @@
         app:layout_constraintStart_toStartOf="parent"
 
         />
-    <!--app:layout_constraintBottom_toTopOf="@+id/fileNameTextEdit"-->
+    app:layout_constraintBottom_toTopOf="@+id/fileNameTextEdit"
 
-    <!--<EditText
+    <EditText
         android:id="@+id/fileNameTextEdit"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -27,7 +27,7 @@
         android:importantForAutofill="no"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        />
+        android:layout_marginRight="10dp" />
 
     <Button
         android:id="@+id/saveScoreBtn"
@@ -35,6 +35,6 @@
         android:layout_height="wrap_content"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        android:text="Lagre" />-->
+        android:text="Lagre" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
